@@ -1,0 +1,82 @@
+# ------------------
+# Node.js 관련
+# ------------------
+
+# node modules
+node_modules/
+
+# 로그 파일
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 환경 설정 파일
+.env
+.env.local
+.env.*.local
+
+# 빌드 출력물
+dist/
+build/
+
+# 테스트 커버리지
+coverage/
+
+# IDE 설정
+.vscode/
+.idea/
+
+# 기타
+*.tgz
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# ------------------
+# Spring Boot 관련
+# ------------------
+
+# 빌드 출력물
+/target/
+/build/
+
+# 로그 파일
+*.log
+
+# 환경 설정 파일
+*.env
+application.properties
+application.yml
+application-*.properties
+application-*.yml
+
+# IDE 관련
+*.iml
+.idea/
+*.ipr
+*.iws
+*.class
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+
+# Maven
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# OS별 파일
+.DS_Store
+Thumbs.db
+
+# 기타
+*.war
+*.jar
+*.ear
